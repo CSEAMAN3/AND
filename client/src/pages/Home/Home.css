@@ -14,9 +14,15 @@ Buttons / Links
 Typography
 **************/
 
-.hero-text {
-  font-size: 3rem;
+.hero-heading {
+  font-size: 2.4rem;
   font-weight: 400;
+  color: var(--wht);
+}
+
+.hero-text {
+  color: var(--wht);
+  max-width: 32ch;
 }
 
 /*************
@@ -26,13 +32,18 @@ Layout
 .main {
   width: 100%;
   background-color: var(--yel);
-  height: 500px;
+  background-image: url(../../images/AND-homepage-hero-2.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .main-container {
   width: 90%;
   max-width: 1024px;
+  height: 500px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
 
 /*************

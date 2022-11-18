@@ -51,18 +51,6 @@ export default function Skills() {
           </div>
           <div className="skillcard">
             <div className="skillcard-img-container">
-              <img className="skillcard-img" src={SkillcardImgOne} alt="" />
-            </div>
-            <div className="skill-card-badge">
-              <span className="badge-text">Free</span>
-            </div>
-            <div className="skillcard-content-container">
-              <h3 className="skill-card-heading">Next Steps</h3>
-              <p>An opportunity to experience a supportive and friendly work environment.</p>
-            </div>
-          </div>
-          <div className="skillcard">
-            <div className="skillcard-img-container">
               <img className="skillcard-img" src={SkillcardImgTwo} alt="" />
             </div>
             <div className="skill-card-badge">

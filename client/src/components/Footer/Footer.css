@@ -14,10 +14,119 @@ Buttons / Links
 Typography
 **************/
 
+.footer-section-heading {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--wht);
+}
+
+.footer-link {
+  display: inline-block;
+  font-weight: 300;
+  color: var(--wht);
+  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: var(--prpl);
+}
+
 /*************
 Layout
 **************/
 
+.footer {
+  width: 100%;
+  /* background: rgb(32, 32, 32);
+  background: linear-gradient(195deg, rgba(32, 32, 32, 1) 0%, rgba(58, 89, 66, 1) 100%); */
+  background-color: var(--org);
+  padding: 2rem 0;
+}
+
+.footer-container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section {
+  margin-bottom: 1rem;
+}
+
+/*************
+Media Queries
+**************/
+
+@media (min-width: 500px) {
+  /*************
+General Elements @500px
+**************/
+
+  /*************
+Images @500px
+**************/
+
+  /*************
+Buttons / Links / inputs @500px
+**************/
+
+  /*************
+Typography @500px
+**************/
+
+  /*************
+Layout @500px
+**************/
+
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .footer-section {
+    width: 48%;
+  }
+}
+
+/*************
+Media Queries @800px
+**************/
+
+@media (min-width: 800px) {
+  /*************
+General Elements
+**************/
+
+  /*************
+Images
+**************/
+
+  /*************
+Buttons / Links
+**************/
+
+  /*************
+Typography
+**************/
+
+  /*************
+Layout
+**************/
+
+  .footer {
+    margin-top: 2rem;
+  }
+
+  .footer-section {
+    width: 22%;
+    justify-content: space-between;
+  }
+}
 /*************
 Media Queries
 **************/
