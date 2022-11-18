@@ -1,0 +1,131 @@
+/*************
+General Elements
+**************/
+
+/*************
+Images
+**************/
+
+.skillcard-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/*************
+Buttons / Links
+**************/
+
+select {
+  padding: 0.5rem 1rem;
+  width: 240px;
+  border: 1px solid var(--yel);
+  border-radius: 2px;
+  margin-bottom: 1rem;
+}
+
+.skills-form-btn {
+  display: block;
+  padding: 1rem;
+  border: none;
+  border-radius: 2px;
+  background-color: var(--prpl);
+  color: var(--wht);
+  font-weight: 700;
+  cursor: pointer;
+  transform: scale(1);
+}
+
+.skills-form-btn:active {
+  transform: scale(0.95);
+}
+
+/*************
+Typography
+**************/
+
+.skill-search-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--prpl);
+}
+
+.input-heading {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--prpl);
+}
+
+.skill-card-heading {
+  color: var(--org);
+  font-weight: 700;
+}
+
+.badge-text {
+  font-weight: 700;
+  color: var(--wht);
+}
+
+/*************
+Layout
+**************/
+
+.skills-section {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.skills-section-container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.skill-cards-container {
+  padding: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skillcard {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--org);
+  margin-bottom: 1rem;
+}
+
+.skill-card-badge {
+  background-color: var(--org);
+  padding: 0.5rem 1rem;
+}
+
+.skillcard-content-container {
+  padding: 1rem;
+}
+
+/*************
+Media Queries
+**************/
+
+@media (min-width: 500px) {
+  .skillcard {
+    width: 48%;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid var(--org);
+  }
+}
+
+@media (min-width: 800px) {
+  .skillcard {
+    width: 30%;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid var(--org);
+  }
+}

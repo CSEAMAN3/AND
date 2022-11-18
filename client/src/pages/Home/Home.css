@@ -1,0 +1,40 @@
+/*************
+General Elements
+**************/
+
+/*************
+Images
+**************/
+
+/*************
+Buttons / Links
+**************/
+
+/*************
+Typography
+**************/
+
+.hero-text {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+/*************
+Layout
+**************/
+
+.main {
+  width: 100%;
+  background-color: var(--yel);
+  height: 500px;
+}
+
+.main-container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/*************
+Media Queries
+**************/

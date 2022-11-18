@@ -1,0 +1,109 @@
+/**********************
+Burger Menu Styles
+***********************/
+
+#page-wrap {
+  text-align: center;
+
+  /* Prevent sidebar from showing a scrollbar on page */
+  overflow: auto;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  padding: 1rem 0;
+  margin-bottom: 0 !important;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: var(--wht);
+  font-weight: 700;
+  transition: color 0.2s;
+}
+
+/* Change color on hover */
+.bm-item:hover {
+  color: var(--prpl);
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 30px;
+  height: 24px;
+  right: 36px;
+  top: 28px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: var(--wht);
+  border-radius: 2px;
+  height: 14% !important;
+}
+
+.bm-burger-bars-hover {
+  background-color: var(--prpl) !important;
+  opacity: 1 !important;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 54px !important;
+  width: 54px !important;
+  top: -20px !important;
+  right: 39px !important;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: var(--wht);
+  height: 24px !important;
+  width: 4px !important;
+}
+
+.bm-cross-button:hover .bm-cross {
+  background-color: var(--prpl);
+}
+
+/* General sidebar styles */
+
+.bm-menu-wrap {
+  background: var(--org);
+}
+
+.bm-menu {
+  background: var(--org);
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  position: relative;
+  top: -70px;
+  /* bottom: -70px; */
+  /* height: calc(100vh+70px) !important; */
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  margin-top: 24px;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 800px) {
+  .bm-burger-button {
+    display: none;
+  }
+}
