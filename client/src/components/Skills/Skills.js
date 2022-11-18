@@ -20,9 +20,9 @@ export default function Skills() {
             Category
           </label>
           <select name="category" id="category">
-            <option value="arts">Arts and Crafts</option>
-            <option value="arts">Digital</option>
-            <option value="arts">Financial</option>
+            <option value="arts">Money Managment</option>
+            <option value="arts">Online Business Building</option>
+            <option value="arts">Living with Little</option>
             <option value="arts">Food and Drink</option>
           </select>
           <label className="input-heading" htmlFor="skill">

@@ -15,14 +15,16 @@ Typography
 **************/
 
 .hero-heading {
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-weight: 400;
   color: var(--wht);
 }
 
 .hero-text {
+  font-size: 1.25rem;
+  font-weight: 300;
   color: var(--wht);
-  max-width: 32ch;
+  max-width: 34ch;
 }
 
 /*************

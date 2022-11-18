@@ -16,7 +16,7 @@ export default function Footer() {
               </li>
               <li className="footer-section-li">
                 <a className="footer-link" href="/">
-                  Weather Center
+                  Food Banks
                 </a>
               </li>
               <li className="footer-section-li">
@@ -49,7 +49,7 @@ export default function Footer() {
             <ul className="footer-section-list">
               <li className="footer-section-li">
                 <a className="footer-link" href="/">
-                  Stomp.org: Mind initiative
+                  AND.org: Mind initiative
                 </a>
               </li>
               <li className="footer-section-li">
@@ -67,7 +67,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-section">
-          <h5 className="footer-section-heading">Stomp Member</h5>
+          <h5 className="footer-section-heading">AND Member</h5>
           <nav className="footer-section-nav">
             <ul className="footer-section-list">
               <li className="footer-section-li">
@@ -77,27 +77,27 @@ export default function Footer() {
               </li>
               <li className="footer-section-li">
                 <a className="footer-link" href="/">
-                  Join Stomp
+                  Join AND
                 </a>
               </li>
               <li className="footer-section-li">
                 <a className="footer-link" href="/">
-                  Stomp locations
+                  Become a mentors
                 </a>
               </li>
               <li className="footer-section-li">
                 <a className="footer-link" href="/">
-                  Stomp events
+                  AND events
                 </a>
               </li>
               <li className="footer-section-li">
                 <a className="footer-link" href="/">
-                  Stomp places
+                  AND places
                 </a>
               </li>
               <li className="footer-section-li">
                 <a className="footer-link" href="/">
-                  About Stomp
+                  About AND
                 </a>
               </li>
             </ul>
@@ -105,7 +105,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-section">
-          <h5 className="footer-section-heading">Stomp</h5>
+          <h5 className="footer-section-heading">AND</h5>
           <nav className="footer-section-nav">
             <ul className="footer-section-list">
               <li className="footer-section-li">
