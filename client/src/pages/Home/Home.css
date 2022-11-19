@@ -38,6 +38,7 @@ Layout
   background-color: var(--yel);
   background-image: url(../../images/AND-homepage-hero-2.jpg);
   background-size: cover;
+  background-repeat: none;
   background-position: center;
 }
 

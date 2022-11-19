@@ -8,7 +8,7 @@ export default function Burger() {
       <a className="menu-item" href="/">
         Home
       </a>
-      <a className="menu-item" href="/">
+      <a className="menu-item" href="/skills">
         Skills
       </a>
       <a className="menu-item" href="/meals">

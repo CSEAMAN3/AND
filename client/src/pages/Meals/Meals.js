@@ -10,7 +10,7 @@ export default function Meals() {
         <div className="main-container">
           <div className="hero-content-container">
             <h1 className="hero-heading">Find a food bank</h1>
-            <p className="hero-text">Find your local food bank, thier contact details and opening times.</p>
+            <p className="hero-text">Find your local food bank, their contact details and opening times.</p>
           </div>
         </div>
       </main>

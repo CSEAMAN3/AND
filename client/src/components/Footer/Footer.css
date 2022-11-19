@@ -33,6 +33,15 @@ Typography
   color: var(--prpl);
 }
 
+.made-content {
+  font-weight: 700;
+  color: var(--wht);
+}
+
+.heart {
+  color: var(--red);
+}
+
 /*************
 Layout
 **************/
@@ -42,7 +51,6 @@ Layout
   /* background: rgb(32, 32, 32);
   background: linear-gradient(195deg, rgba(32, 32, 32, 1) 0%, rgba(58, 89, 66, 1) 100%); */
   background-color: var(--org);
-  padding: 2rem 0;
 }
 
 .footer-container {
@@ -51,10 +59,18 @@ Layout
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  position: relative;
+  padding: 3rem 0;
 }
 
 .footer-section {
   margin-bottom: 1rem;
+}
+
+.footer-made-container {
+  position: absolute;
+  bottom: 20px;
+  right: 26px;
 }
 
 /*************

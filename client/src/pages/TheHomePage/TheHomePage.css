@@ -1,0 +1,139 @@
+/*************
+General Elements
+**************/
+
+/*************
+Images
+**************/
+
+.img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0 0 16px 16px;
+}
+
+/*************
+Buttons / Links
+**************/
+
+/*************
+Typography
+**************/
+
+.hero-heading {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--wht);
+}
+
+.hero-text {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: var(--wht);
+  max-width: 34ch;
+}
+
+.text-container-heading {
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--wht);
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.text-container-text {
+  color: var(--wht);
+  text-align: center;
+  font-weight: 300;
+}
+
+/*************
+Layout
+**************/
+
+.thehome-main {
+  width: 100%;
+  background-color: var(--yel);
+  background-image: url(../../images/main-page.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+}
+
+.main-container {
+  width: 90%;
+  max-width: 1024px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.section-section {
+  width: 90%;
+  max-width: 1024px;
+  margin: 2rem auto;
+}
+
+.text-container {
+  width: 100%;
+  min-height: 200px;
+  background-color: var(--org);
+  border-radius: 16px 16px 0 0;
+}
+
+.img-container {
+  width: 100%;
+  min-height: 300px;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+}
+
+.text-inner-container {
+  padding: 1rem;
+}
+
+.the-skills-section,
+.the-meals-section,
+.the-involved-section {
+  margin-bottom: 1rem;
+}
+
+.the-skills-container,
+.the-meals-container,
+.the-involved-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/*************
+Media Queries
+**************/
+
+@media (min-width: 600px) {
+  .the-skills-container,
+  .the-meals-container,
+  .the-involved-container {
+    flex-direction: row;
+  }
+
+  .text-container {
+    border-radius: 16px 0 0 16px;
+  }
+
+  .img {
+    border-radius: 0 16px 16px 0;
+  }
+
+  .the-skills-section,
+  .the-meals-section,
+  .the-involved-section {
+    margin-bottom: 2rem;
+  }
+}

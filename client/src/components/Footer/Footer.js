@@ -1,6 +1,9 @@
 import React from "react";
 import "./Footer.css";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
+
 export default function Footer() {
   return (
     <footer className="footer">
@@ -140,6 +143,15 @@ export default function Footer() {
               </li>
             </ul>
           </nav>
+        </div>
+        <div className="footer-made-container">
+          <span className="made-content">
+            Made with love{" "}
+            <span className="heart">
+              <FontAwesomeIcon icon={faHeart} />
+            </span>{" "}
+            in Norwich
+          </span>
         </div>
       </div>
     </footer>

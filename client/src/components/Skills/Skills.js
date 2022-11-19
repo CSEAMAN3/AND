@@ -8,7 +8,7 @@ import SkillcardImgFive from "../../images/5.png";
 import SkillcardImgSix from "../../images/6.png";
 import SkillcardImgSeven from "../../images/7.png";
 import SkillcardImgEight from "../../images/8.png";
-import SkillcardImgNine from "../../images/9.png";
+import skillcard from "../../images/skillcard.jpg";
 
 export default function Skills() {
   return (
@@ -46,7 +46,7 @@ export default function Skills() {
             </div>
             <div className="skillcard-content-container">
               <h3 className="skill-card-heading">Next Steps</h3>
-              <p>An opportunity to experience a supportive and friendly work environment.</p>
+              <p>Learn how to get more control over your finances, with some simple steps you can start implementing now.</p>
             </div>
           </div>
           <div className="skillcard">
@@ -58,7 +58,7 @@ export default function Skills() {
             </div>
             <div className="skillcard-content-container">
               <h3 className="skill-card-heading">Next Steps</h3>
-              <p>An opportunity to experience a supportive and friendly work environment.</p>
+              <p>By identifying your online skills, you can start making money online.</p>
             </div>
           </div>
           <div className="skillcard">
@@ -70,7 +70,10 @@ export default function Skills() {
             </div>
             <div className="skillcard-content-container">
               <h3 className="skill-card-heading">Next Steps</h3>
-              <p>An opportunity to experience a supportive and friendly work environment.</p>
+              <p>
+                Learn how to self motivate, but also identify when you need to take a break and how to make that happen in
+                your schedule.
+              </p>
             </div>
           </div>
           <div className="skillcard">
@@ -82,7 +85,7 @@ export default function Skills() {
             </div>
             <div className="skillcard-content-container">
               <h3 className="skill-card-heading">Next Steps</h3>
-              <p>An opportunity to experience a supportive and friendly work environment.</p>
+              <p>Learn the day to day tasks of a virtual assitant to see if they are right for you.</p>
             </div>
           </div>
           <div className="skillcard">
@@ -94,7 +97,7 @@ export default function Skills() {
             </div>
             <div className="skillcard-content-container">
               <h3 className="skill-card-heading">Next Steps</h3>
-              <p>An opportunity to experience a supportive and friendly work environment.</p>
+              <p>Starting an online business can be easy with these resources.</p>
             </div>
           </div>
           <div className="skillcard">
@@ -106,7 +109,7 @@ export default function Skills() {
             </div>
             <div className="skillcard-content-container">
               <h3 className="skill-card-heading">Next Steps</h3>
-              <p>An opportunity to experience a supportive and friendly work environment.</p>
+              <p>Learn how to navigate adult education and qualification programs.</p>
             </div>
           </div>
           <div className="skillcard">
@@ -118,7 +121,9 @@ export default function Skills() {
             </div>
             <div className="skillcard-content-container">
               <h3 className="skill-card-heading">Next Steps</h3>
-              <p>An opportunity to experience a supportive and friendly work environment.</p>
+              <p>
+                Learning to live with little will help you budget your money, so you don't have to make a choice anymore.
+              </p>
             </div>
           </div>
           <div className="skillcard">
@@ -130,19 +135,19 @@ export default function Skills() {
             </div>
             <div className="skillcard-content-container">
               <h3 className="skill-card-heading">Next Steps</h3>
-              <p>An opportunity to experience a supportive and friendly work environment.</p>
+              <p>Build a meal which is tailored to you using our online tool</p>
             </div>
           </div>
           <div className="skillcard">
             <div className="skillcard-img-container">
-              <img className="skillcard-img" src={SkillcardImgNine} alt="" />
+              <img className="skillcard-img" src={skillcard} alt="" />
             </div>
             <div className="skill-card-badge">
               <span className="badge-text">Free</span>
             </div>
             <div className="skillcard-content-container">
               <h3 className="skill-card-heading">Next Steps</h3>
-              <p>An opportunity to experience a supportive and friendly work environment.</p>
+              <p>We want to help your family at AND but also want YOU to help your own family at home.</p>
             </div>
           </div>
         </div>
