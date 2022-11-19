@@ -13,7 +13,7 @@ export default function Header() {
         </Link>
         <nav className="header-nav">
           <ul className="header-nav-list">
-            <Link className="header-nav-link" to="/">
+            <Link className="header-nav-link" to="/skills">
               <li className="nav-list-item">Skills</li>
             </Link>
             <Link className="header-nav-link" to="/meals">
