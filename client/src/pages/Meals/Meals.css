@@ -1,0 +1,139 @@
+/*************
+General Elements
+**************/
+
+/*************
+Images
+**************/
+
+.food-map-img {
+  width: 100%;
+  margin-bottom: 1rem;
+  border: 2px solid var(--org);
+  border-radius: 8px;
+}
+
+/*************
+Buttons / Links
+**************/
+
+.meals-search-input {
+  width: 100%;
+  padding: 1rem;
+  font-family: "Lato", sans-serif;
+  border: 1px solid var(--org);
+  border-radius: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.meals-search-btn {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 2px;
+  background-color: var(--org);
+  color: var(--wht);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/*************
+Typography
+**************/
+
+.hero-heading {
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--wht);
+}
+
+.hero-text {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: var(--wht);
+  max-width: 34ch;
+}
+
+.food-content-heading {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--prpl);
+}
+
+.food-content-link {
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--wht);
+  width: 240px;
+  background-color: var(--org);
+  padding: 1rem;
+}
+
+.food-content-content {
+  margin-bottom: 0.5rem;
+  max-width: 60ch;
+}
+
+/*************
+Layout
+**************/
+
+.main {
+  width: 100%;
+  background-color: var(--yel);
+  background-image: url(../../images/AND-homepage-hero-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-container {
+  width: 90%;
+  max-width: 1024px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.meals-section {
+  width: 100%;
+}
+
+.meals-section-container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.food-content-container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.food-content {
+  margin-bottom: 2rem;
+}
+
+.meals-search-form {
+  padding: 1rem 0;
+}
+
+/*************
+Media Queries
+**************/
+
+@media (min-width: 960px) {
+  .food-content-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .food-content {
+    width: 30%;
+  }
+}

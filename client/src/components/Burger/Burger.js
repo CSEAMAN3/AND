@@ -11,7 +11,7 @@ export default function Burger() {
       <a className="menu-item" href="/">
         Skills
       </a>
-      <a className="menu-item" href="/">
+      <a className="menu-item" href="/meals">
         Meals
       </a>
       <a className="menu-item" href="/">

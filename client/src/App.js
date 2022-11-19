@@ -3,6 +3,7 @@ import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
+import Meals from "./pages/Meals/Meals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/meals" element={<Meals />} />
         </Routes>
         <Footer />
       </div>

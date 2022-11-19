@@ -1,7 +1,7 @@
 import React from "react";
 import Burger from "../Burger/Burger";
 import "./Header.css";
-import Logo from "../../images/AND_Primary_Logo_Vector_White.svg";
+import Logo from "../../images/AND-adjusted-primary.svg";
 import { Link } from "react-router-dom";
 
 export default function Header() {
@@ -14,7 +14,7 @@ export default function Header() {
             <Link className="header-nav-link" to="/">
               <li className="nav-list-item">Skills</li>
             </Link>
-            <Link className="header-nav-link" to="/">
+            <Link className="header-nav-link" to="/meals">
               <li className="nav-list-item">Meals</li>
             </Link>
             <Link className="header-nav-link" to="/">
