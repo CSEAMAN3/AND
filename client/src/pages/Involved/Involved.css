@@ -1,0 +1,196 @@
+/*************
+General Elements
+**************/
+
+/*************
+Images
+**************/
+
+/*************
+Buttons / Links
+**************/
+
+.discover-content-link {
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--wht);
+  width: 240px;
+  background-color: var(--org);
+  padding: 1rem;
+  transition: background-color 0.5s ease;
+}
+
+.discover-content-link:hover,
+.discover-content-link:active {
+  background-color: var(--prpl);
+}
+
+/*************
+Typography
+**************/
+
+.hero-heading {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--wht);
+}
+
+.hero-text {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: var(--wht);
+  max-width: 34ch;
+}
+
+.involved-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.involved-section-container p {
+  margin-bottom: 0.5rem;
+}
+
+.who-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--wht);
+}
+
+.who-for-content {
+  margin-bottom: 1rem;
+  max-width: 70ch;
+}
+
+.who-for-heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.register-text {
+  color: var(--wht);
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--wht);
+}
+
+.register-text:hover,
+.register-text:active {
+  color: var(--org);
+  border-bottom-color: var(--org);
+}
+
+.who-type-text {
+  margin-bottom: 1rem;
+}
+
+.discover-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.container-heading {
+  font-weight: 700;
+}
+
+.container-content {
+  margin-bottom: 0.5rem;
+}
+
+/*************
+Layout
+**************/
+
+.main-involved {
+  width: 100%;
+  background-color: var(--yel);
+  background-image: url(../../images/AND-volunteer-hero-image.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1rem;
+}
+
+.main-container {
+  width: 90%;
+  max-width: 1024px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.invloved-section {
+  width: 100%;
+}
+
+.involved-section-container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.who-involved-section {
+  width: 100%;
+  background-color: var(--yel);
+  padding: 2rem 0;
+  color: var(--wht);
+}
+
+.who-involved-section-container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.who-type-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.individual-container,
+.groups-container {
+  background-color: var(--prpl);
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.discover-section {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.discover-section-container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.resource-container,
+.about-container,
+.latest-news-container {
+  margin-bottom: 1.5rem;
+}
+
+/*************
+Media Queries
+**************/
+
+@media (min-width: 600px) {
+  .who-type-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .individual-container,
+  .groups-container {
+    background-color: var(--prpl);
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    width: 48%;
+  }
+}

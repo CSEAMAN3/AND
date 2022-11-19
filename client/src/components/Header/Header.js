@@ -8,7 +8,9 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header-container">
-        <img className="header-logo" src={Logo} alt="AND company logo" />
+        <Link to="/">
+          <img className="header-logo" src={Logo} alt="AND company logo" />
+        </Link>
         <nav className="header-nav">
           <ul className="header-nav-list">
             <Link className="header-nav-link" to="/">
@@ -17,7 +19,7 @@ export default function Header() {
             <Link className="header-nav-link" to="/meals">
               <li className="nav-list-item">Meals</li>
             </Link>
-            <Link className="header-nav-link" to="/">
+            <Link className="header-nav-link" to="/involved">
               <li className="nav-list-item">Get Involved</li>
             </Link>
           </ul>

@@ -36,6 +36,11 @@ Buttons / Links
   font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
+  transform: scale(1);
+}
+
+.meals-search-btn:active {
+  transform: scale(0.98);
 }
 
 /*************
@@ -43,14 +48,15 @@ Typography
 **************/
 
 .hero-heading {
-  font-size: 3rem;
-  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
   color: var(--wht);
 }
 
 .hero-text {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--wht);
   max-width: 34ch;
 }
@@ -69,6 +75,12 @@ Typography
   width: 240px;
   background-color: var(--org);
   padding: 1rem;
+  transition: background-color 0.5s ease;
+}
+
+.food-content-link:active,
+.food-content-link:hover {
+  background-color: var(--prpl);
 }
 
 .food-content-content {
@@ -80,10 +92,10 @@ Typography
 Layout
 **************/
 
-.main {
+.main-meals {
   width: 100%;
   background-color: var(--yel);
-  background-image: url(../../images/AND-homepage-hero-2.jpg);
+  background-image: url(../../images/AND-meals-hero-image.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -128,9 +140,23 @@ Media Queries
 **************/
 
 @media (min-width: 960px) {
+  .meals-search-form {
+    display: flex;
+    gap: 10px;
+  }
+
+  .meals-search-input {
+    margin-bottom: 0;
+  }
+
+  .meals-search-btn {
+    border: 1px solid var(--org);
+  }
+
   .food-content-container {
     flex-direction: row;
     justify-content: space-between;
+    padding: 2rem 0;
   }
 
   .food-content {

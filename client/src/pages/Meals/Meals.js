@@ -6,7 +6,7 @@ import Map from "../../images/map.png";
 export default function Meals() {
   return (
     <>
-      <main className="main">
+      <main className="main-meals">
         <div className="main-container">
           <div className="hero-content-container">
             <h1 className="hero-heading">Find a food bank</h1>
