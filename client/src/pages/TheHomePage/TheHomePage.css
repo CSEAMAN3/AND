@@ -13,6 +13,29 @@ Images
   border-radius: 0 0 16px 16px;
 }
 
+.transform-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1);
+  animation-name: hero;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes hero {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 /*************
 Buttons / Links
 **************/
@@ -61,6 +84,16 @@ Layout
   background-size: cover;
   background-repeat: none;
   background-position: center;
+  position: relative;
+}
+
+.img-hero-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
 }
 
 .main-container {
@@ -70,6 +103,7 @@ Layout
   margin: 0 auto;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .section-section {

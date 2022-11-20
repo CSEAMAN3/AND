@@ -4,11 +4,14 @@ import "./TheHomePage.css";
 import skillimage from "../../images/AND-homepage-hero-2.jpg";
 import mealimage from "../../images/AND-meals-hero-image.jpg";
 import involvedimage from "../../images/AND-volunteer-hero-image.jpg";
-
+import mainImg from "../../images/main-page.jpg";
 export default function TheHomePage() {
   return (
     <>
       <main className="thehome-main">
+        <div className="img-hero-container">
+          <img className="transform-img" src={mainImg} alt="1000 people faces." />
+        </div>
         <div className="main-container">
           <div className="hero-content-container">
             <h1 className="hero-heading">Break the cycle</h1>
